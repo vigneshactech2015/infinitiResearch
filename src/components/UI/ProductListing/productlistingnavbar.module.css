@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 15px 0 15px;
+}
+
+@media(min-width:600px){
+    .container{
+        all:unset;
+        display: flex;
+        align-items: center;
+        margin:0 140px 0 50px;
+        justify-content: center;
+        gap:5%;
+    }
+}

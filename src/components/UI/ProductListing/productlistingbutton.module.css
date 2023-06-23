@@ -1,0 +1,34 @@
+.buttoncontainer{
+    display: flex;
+    max-width:400px;
+    justify-content: space-around;
+}
+button{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.viewall{
+    background-color: #0043FF;
+    cursor: pointer;
+    color:#ffff;
+}
+
+@media(min-width:600px){
+    .buttoncontainer{
+        all:unset;
+        margin:2% 15% 0 10%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    button{
+        border-radius: 20px;
+        width:150px;
+        height:40px
+    }
+}
+
+.all{
+    background-color: #E7EDFE;
+}

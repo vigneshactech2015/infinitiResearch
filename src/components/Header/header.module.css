@@ -1,0 +1,59 @@
+.header_container{
+height:40px;
+display: flex;
+align-items: center;
+margin:4px 8px 0 8px;
+box-shadow: 1px 1px #EBEBEB;
+justify-content: space-around;
+}
+
+.expandmore{
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.dropdown{
+    height:20px;
+    width:80px;
+    border-radius: 10px;
+    margin-left: 2px;
+    border:1px solid #EBEBEB;
+}
+
+.searchbar{
+    width:65%;
+    border-radius: 10px;
+    border:1px solid #EBEBEB;
+    border-top: 0px solid transparent;
+    border-left:0px solid transparent;
+    
+}
+
+
+
+.filtericon{
+    color: #0654ba;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media(min-width:600px) {
+    .searchbar{
+    position: relative;
+    right:70px;        
+    }
+
+    .filtericon{
+        position: relative;
+        right:100px;
+    }
+}
+
+@media(max-width:600px){
+    .searchbar{
+        width:220px;
+    }
+}
+
+
+

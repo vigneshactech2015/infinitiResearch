@@ -1,0 +1,55 @@
+.headercontainer{
+    height:40px;
+    display: flex;
+    align-items: center;
+    gap:10%;
+}
+
+.searchbar{
+    width:60%;
+    height:20px;
+    border-radius: 10px;
+    border:1px solid #C4C4C4;
+    border-top:0px solid transparent;
+    border-left:0px solid transparent;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.backbutton{
+    margin-left:4%;
+    cursor: pointer;
+}
+
+
+.dropdown{
+    height:20px;
+    width:80px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.widget{
+    width:"20px";
+    height:"20px";
+    cursor: pointer;
+}
+
+@media(min-width:600px){
+    .searchbar{
+        width:80%;
+    }
+   
+
+    .container{
+        width:80%;
+    }
+
+    .widget{
+        position:relative;
+        right:12%;
+    }
+}

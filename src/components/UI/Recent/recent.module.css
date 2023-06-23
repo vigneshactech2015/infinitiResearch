@@ -1,0 +1,27 @@
+
+.recent_container{
+    margin:0 20px 0 20px;
+}
+
+.recentSubcontainer{
+    display: flex;
+    gap:3%;
+    flex-wrap: wrap;
+}
+
+.individualcontainer{
+    height:110px;
+    width:110px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media(min-width:600px){
+    
+    .recent_container{
+        margin:0 60px 0 60px;
+    }
+   
+}

@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+
+.all{
+    color:#3665F3;
+    border-bottom: 2px solid #3665F3;
+}
+
+@media(min-width:600px){
+    .container{
+        margin:0 14% 0 14%;
+        justify-content: space-around;
+        text-align: center;
+        gap:12%;
+    }
+
+    .container p {
+        text-align: center;
+    }
+
+}

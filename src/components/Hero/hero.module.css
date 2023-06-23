@@ -1,0 +1,25 @@
+.hero_container{
+margin:2% 0 0 0;
+width:auto;
+text-align: center;
+}
+
+.heroImage{
+    border-radius: 10px;
+    /*object-fit: contain;*/
+    height:350px;
+    width:968px;
+}
+
+@media(max-width:600px){
+    .hero_container{
+        all:unset;
+        }
+        
+        .heroImage{
+            all:unset;
+           margin: 7% 0 0 5%;
+            object-fit: contain;
+            width:80%;
+        }
+}

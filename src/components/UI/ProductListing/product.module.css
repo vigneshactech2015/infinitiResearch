@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10%;
+    margin:2% 10% 0 10%;
+}
+
+.red{
+    color:red;
+}
+
+.color{
+    color:#707070;
+}
+
+@media(min-width:600px){
+    .container{
+        margin:2% 15% 0 15%;
+        gap:5%;
+    }
+}
+
+.seemore{
+   width:100%;
+   text-align: center;
+}
+
+.seemorebutton{
+    background-color:#0654ba;
+    cursor: pointer;
+    color:#ffff;
+}

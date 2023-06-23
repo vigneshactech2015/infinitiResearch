@@ -1,0 +1,37 @@
+.navbar_container{
+    display: flex;
+    gap:25px;
+    text-align: center;
+    align-items: center;
+    width:80%;
+    margin:20px 2px 0 18px;
+}
+
+.navbar_container section{
+    height:60px;
+    width:120px;
+    background-color: #C4C4C4;
+    color:black;
+}
+
+@media(min-width:600px){
+    .navbar_container{
+        all:unset;
+        display: flex;
+        gap:20px;
+        text-align: center;
+        justify-content: center;
+        margin-top:3%;
+        width:auto;
+    }
+
+    .navbar_container section{
+        height:80px;
+        width:310px;
+        /*text-align: center;
+        vertical-align:middle;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

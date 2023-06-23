@@ -1,0 +1,36 @@
+.stats_container{
+    display: flex;
+    border-bottom:1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    align-items: center;
+    gap:30%;
+    margin:3% 4% 0 4%;
+}
+
+.rightside{
+    display: flex;
+    gap:6%;
+}
+
+.filter{
+    color:#0043FF;
+}
+   
+
+@media(min-width:600px){
+    .stats_container{
+        all:unset;
+        display: flex;
+        align-items: center;
+        margin:2% 14% 0 14%;
+        gap:45%;
+        justify-content: space-around;
+        border-bottom:1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+    }
+
+    .rightside{
+        display: flex;
+        width:270px;
+    }
+}

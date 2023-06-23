@@ -1,0 +1,22 @@
+.headercontainer{
+    height:40px;
+    display: flex;
+    align-items: center;
+    gap:10%;
+}
+
+.searchbar{
+    width:40%;
+    height:20px;
+    border-radius: 10px;
+    border:1px solid #C4C4C4;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.backbutton{
+    margin-left:4%;
+    cursor: pointer;
+}

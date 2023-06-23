@@ -1,0 +1,17 @@
+.headercontainer{
+    height:40px;
+    display: flex;
+    align-items: center;
+    gap:10%;
+}
+
+.title{
+    text-align: center;
+    width:60%;
+}
+
+
+.backbutton{
+    margin-left:4%;
+    cursor: pointer;
+}
